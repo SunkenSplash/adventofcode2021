@@ -29,7 +29,7 @@ class LanternFish:
 for age in data:
     fish_list.append(LanternFish(int(age)))
 
-for i in range(256):
+for i in range(80):
     for fish in fish_list:
         fish.tick()
 
